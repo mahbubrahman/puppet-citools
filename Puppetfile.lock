@@ -3,6 +3,8 @@ FORGE
   specs:
     maestrodev/avahi (1.0.0)
     puppetlabs/firewall (0.4.2)
+    puppetlabs/java (1.0.1)
+      puppetlabs/stdlib (>= 0.1.6)
     puppetlabs/ntp (3.0.1)
       puppetlabs/stdlib (>= 0.1.6)
     puppetlabs/stdlib (4.1.0)
@@ -38,6 +40,7 @@ DEPENDENCIES
   maestrodev/avahi (>= 1.0.0)
   profile (>= 0)
   puppetlabs/firewall (>= 0)
+  puppetlabs/java (>= 0)
   puppetlabs/ntp (>= 0)
   role (>= 0)
   stahnma/epel (>= 0)

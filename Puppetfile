@@ -2,6 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 mod 'puppetlabs/ntp'
 mod 'stahnma/epel'
+mod 'puppetlabs/java'
 mod 'puppetlabs/firewall'
 mod 'maestrodev/avahi', '>=1.0.0'
 mod 'profile', :path => 'internal_modules/profile'
