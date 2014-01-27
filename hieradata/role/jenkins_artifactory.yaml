@@ -1,0 +1,5 @@
+# Default Yaml File for development data
+---
+iam_role : 'jenkins_artifactory'
+
+:logger : console

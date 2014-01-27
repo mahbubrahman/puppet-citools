@@ -1,0 +1,44 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    maestrodev/avahi (1.0.0)
+    puppetlabs/firewall (0.4.2)
+    puppetlabs/ntp (3.0.1)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (4.1.0)
+    stahnma/epel (0.0.6)
+
+GIT
+  remote: git://github.com/maestrodev/puppet-jenkins.git
+  ref: master
+  sha: 3acce1a5337b2f3d50efa31542595e216503577f
+  specs:
+    jenkins (1.0.3)
+
+GIT
+  remote: git://github.com/mahbubrahman/puppet-artifactory.git
+  ref: master
+  sha: fec5c3418002049c219686fc933aa89b0e245ee1
+  specs:
+    artifactory (1.0.1)
+
+PATH
+  remote: internal_modules/profile
+  specs:
+    profile (0.0.1)
+
+PATH
+  remote: internal_modules/role
+  specs:
+    role (0.0.1)
+
+DEPENDENCIES
+  artifactory (>= 0)
+  jenkins (>= 0)
+  maestrodev/avahi (>= 1.0.0)
+  profile (>= 0)
+  puppetlabs/firewall (>= 0)
+  puppetlabs/ntp (>= 0)
+  role (>= 0)
+  stahnma/epel (>= 0)
+
